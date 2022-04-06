@@ -90,7 +90,7 @@ int main(int argc, char *argv[])
   //Función para imprimir la tabla de enrutamiento del nodo en cuestion
   //print_childs(root,list_backtrace,list_visited);
   // Funcion que retorna a que nodo se debe enviar el msg de unicast
-  char cadena_example[100];
+  char cadena_example[200];
   serialize(root,list_backtrace,list_visited,cadena_example);
   printf("El arbol es: %s\n", cadena_example);
 
