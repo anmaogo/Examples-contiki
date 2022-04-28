@@ -124,5 +124,8 @@ struct unicast_message u_msg;
 void llenar_beacon(struct beacon *b, linkaddr_t id, uint16_t rssi_c);
 void llenar_unicast(struct unicast_message *unicast_msg,linkaddr_t id);
 void cond_1_neighbor_discovery(linkaddr_t *id_node,struct beacon *beacon_var);
+void add_parent(struct beacon *beacon_var);
+void update_parent(struct beacon *beacon_parent);
+void print_select_table_parent();
 
  #endif /* ARBOL_LIB_H */

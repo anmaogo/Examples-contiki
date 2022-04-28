@@ -1733,9 +1733,9 @@ LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a
  .stab          0x000000000001833c     0x11dc contiki-exp5438.a(frame802154.o)
                                        0x19c8 (size before relaxing)
 
-.stabstr        0x0000000000000000    0x13ab1
+.stabstr        0x0000000000000000    0x13ade
  *(.stabstr)
- .stabstr       0x0000000000000000    0x13ab1 Arbol_rssi.co
+ .stabstr       0x0000000000000000    0x13ade Arbol_rssi.co
 
 .stab.excl
  *(.stab.excl)
